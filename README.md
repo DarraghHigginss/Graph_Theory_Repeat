@@ -33,7 +33,7 @@ Explain what is meant by the term irregular language in the context of regular e
 3: A regular expression is a set of characters that employs a special syntax to find or match other strings or collections of strings. In the UNIX realm, regular expressions are commonly employed In Python, the re module provides full support for Perl-style regular expressions.If an error occurs while compiling or utilizing a regular expression, the 're' module raises the re.error exception. When employed in regular expression, there are a number of characters that have unique meaning.All you need is a lookup table or a finite-state automaton to recognize a regular language. Languages that aren't described by regular grammars are known as non-regular languages. To recognize them, they need more powerful machines than FSAs, up to a Turing machine for an unlimited language. With optional options, the 'MATCH' function tries to match RE pattern to string. re.match(pattern, string, flags=0) Syntax ,Pattern: To be matched regular expression. String: This would be a search for a pattern at the start of the string to match.Flags: You have the option of specifying different flags. With optional flags syntax, the ‘SEARCH' function looks for the first occurrence of the RE pattern within a string. re.search(pattern, string, flags=0) is the syntax.The regular expression to be matched is referred to as the pattern.Unless max is specified, the ‘SUB' function, often known as Search and Replace, replaces all occurrences of the RE pattern in string with repl, substituting all occurrences.This method returns a string that has been changed. The regular phrase to be matched is referred to as the pattern.Max: The maximum number of occurrences that can be substituted.
  
  
- #Research:
+ # Research:
  There are two key components to this regular expression project.The Thompson Construction Algorithm and the Shunting Yard Algorithm
 To completely comprehend the purpose and significance of these two items, I had to conduct extensive research into what they were and what they meant.
 On the course module, there was a lot of information to help explain what these were. I was able to obtain a good understanding of what was required to run this code thanks to the lecture videos.
@@ -48,10 +48,11 @@ Push the incoming symbol to the top of the stack if it has a greater precedence 
 
 
 
-#Referenced links:
+# Referenced links:
 http://mathcenter.oxford.emory.edu/site/cs171/shuntingYardAlgorithm/
 https://medium.com/swlh/visualizing-thompsons-construction-algorithm-for-nfas-step-by-step-f92ef378581b
 https://www.computerhope.com/jargon/r/regex.htm
 https://www.tutorialspoint.com/python3/python_reg_expressions.htm
+https://en.wikipedia.org/wiki/Shunting-yard_algorithm
 
 
