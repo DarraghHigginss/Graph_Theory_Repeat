@@ -1,0 +1,2 @@
+(a.b|b*) fab cab  
+a.(b.b)*.a cat dab
